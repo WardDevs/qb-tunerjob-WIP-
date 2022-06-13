@@ -22,7 +22,7 @@ add this to qb-inventory/js/app.js
 also add this to qb-core/shared/items.lua
 
 ```lua
-	["tunerinsurance"]				 = {["name"] = "tunerinsurance", 					["label"] = "tunerinsurance", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "tunerinsurance.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Insurance"},
+ ["tunerinsurance"]				 = {["name"] = "tunerinsurance", 					["label"] = "tunerinsurance", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "tunerinsurance.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Insurance"},
 ```
 
 
