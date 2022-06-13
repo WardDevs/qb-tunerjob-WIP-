@@ -34,6 +34,12 @@ also add this to qb-core/shared/items.lua
 - [qb-input](https://github.com/qbcore-framework/qb-input) - For accessing evidence stashes
 - [qb-target](https://github.com/qbcore-framework/qb-target) - For accessing opening stuff lol
 
+<<<<<<< Updated upstream
 
 
 ## Copyright
+=======
+## Preview
+
+- [Youtube](https://youtube.com)
+>>>>>>> Stashed changes
