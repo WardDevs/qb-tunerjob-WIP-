@@ -33,3 +33,7 @@ also add this to qb-core/shared/items.lua
 - [qb-log](https://github.com/qbcore-framework/qb-logs) - For logging certain events
 - [qb-input](https://github.com/qbcore-framework/qb-input) - For accessing evidence stashes
 - [qb-target](https://github.com/qbcore-framework/qb-target) - For accessing opening stuff lol
+
+
+
+## Copyright
