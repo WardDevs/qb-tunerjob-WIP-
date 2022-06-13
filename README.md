@@ -19,10 +19,42 @@ add this to qb-inventory/js/app.js
             );
 ```
 
-also add this to qb-core/shared/items.lua
+add the items in qb-core/shared/items.lua
 
 ```lua
  ["tunerinsurance"]				 = {["name"] = "tunerinsurance", 					["label"] = "tunerinsurance", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "tunerinsurance.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Insurance"},
+```
+
+Add the job in qb-core/shared/jobs.lua
+```lua
+    ['tuner'] = {
+		label = 'Tuner 6STR',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 75
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 100
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 125
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
 ```
 
 

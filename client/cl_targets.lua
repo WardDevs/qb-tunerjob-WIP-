@@ -12,13 +12,13 @@ Citizen.CreateThread(function()
             event = "qb-tunerjob:bill",
             icon = "far fa-clipboard",
             label = "Bill a Player",
-            job = "police",
+            job = "tuner",
             },
             {
                 event = "qb-tunerjob:insurance",
                 icon = "far fa-clipboard",
                 label = "Insurance",
-                job = "police",
+                job = "tuner",
                 },
         },
         distance = 1.5    
@@ -36,7 +36,7 @@ Citizen.CreateThread(function()
 			event = "qb-tunerjob:toggleDuty",
 			icon = "far fa-bell",
 			label = "Service",
-			job = "police",
+			job = "tuner",
 		    },
 		},
 		distance = 1.5
@@ -54,7 +54,7 @@ Citizen.CreateThread(function()
 			event = "qb-tunerjob:tunerStash",
 			icon = "far fa-bell",
 			label = "Warehouse",
-			job = "police",
+			job = "tuner",
 		    },
 		},
 		distance = 1.5
@@ -72,7 +72,7 @@ Citizen.CreateThread(function()
 			event = "qb-tunerjob:tunershop",
 			icon = "far fa-bell",
 			label = "Shop",
-			job = "police",
+			job = "tuner",
 		    },
 		},
 		distance = 1.5
