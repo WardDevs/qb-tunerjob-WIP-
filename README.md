@@ -36,4 +36,4 @@ also add this to qb-core/shared/items.lua
 
 ## Preview
 
-- [Youtube](https://youtube.com)
+- [Click Me (Streamable)](https://streamable.com/620nou)
