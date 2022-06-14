@@ -65,6 +65,7 @@ Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 - [qb-log](https://github.com/qbcore-framework/qb-logs) - For logging certain events
 - [qb-input](https://github.com/qbcore-framework/qb-input) - For Billing
 - [qb-target](https://github.com/qbcore-framework/qb-target) - For opening stuff lol
+- [qb-management](https://github.com/qbcore-framework/qb-management) - For Managing Players and money
 
 
 ## Preview
@@ -73,7 +74,7 @@ Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 
 
 ## Todo
-- Add Logs ✅
+- Add Logs (Doing it now)
 - Add Items to shops
 - Make Items useable
 - Add Garage
