@@ -63,9 +63,18 @@ Add the job in qb-core/shared/jobs.lua
 - [qb-core](https://github.com/qbcore-framework/qb-core)
 - [qb-inventory](https://github.com/qbcore-framework/qb-inventory)
 - [qb-log](https://github.com/qbcore-framework/qb-logs) - For logging certain events
-- [qb-input](https://github.com/qbcore-framework/qb-input) - For accessing evidence stashes
-- [qb-target](https://github.com/qbcore-framework/qb-target) - For accessing opening stuff lol
+- [qb-input](https://github.com/qbcore-framework/qb-input) - For Billing
+- [qb-target](https://github.com/qbcore-framework/qb-target) - For opening stuff lol
+
 
 ## Preview
 
 - [Click Me (Streamable)](https://streamable.com/620nou)
+
+
+## Todo
+- Add Logs ✅
+- Add Items to shops
+- Make Items useable
+- Add Garage
+- Add the flatbed thingy with qb-ui
