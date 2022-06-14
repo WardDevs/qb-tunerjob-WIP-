@@ -78,3 +78,4 @@ Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 - Make Items useable
 - Add Garage
 - Add the flatbed thingy with qb-ui
+- Add qb-management
