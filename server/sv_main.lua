@@ -18,6 +18,7 @@ AddEventHandler("qb-tunerjob:bill:player", function(playerId, amount)
                         TriggerClientEvent('qb-phone:RefreshPhone', billed.PlayerData.source)
                         TriggerClientEvent('QBCore:Notify', source, 'Invoice Successfully Sent', 'success')
                         TriggerClientEvent('QBCore:Notify', billed.PlayerData.source, 'New Invoice Received')
+                        TriggerEvent("qb-log:server:CreateLog", "tuner", "Tuner Bill", "red", " | "..biller.." billed "..billed.." for"..amount.."$")
                     else
                         TriggerClientEvent('QBCore:Notify', source, 'Must Be A Valid Amount Above 0', 'error')
                     end
@@ -44,4 +45,5 @@ AddEventHandler("qb-tunerjob:insure:veh", function(Plate, Model, Name)
     if Player.Functions.AddItem("tunerinsurance", 1, false, info) then
         TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items["tunerinsurance"], "add")
     end
+    TriggerEvent("qb-log:server:CreateLog", "tuner", "Tuner Insurance", "red", " | "..player.." created an insurance " "plate" ..plate.." model" ..amount.. "name"..name)
 end)
