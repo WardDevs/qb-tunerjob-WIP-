@@ -25,7 +25,7 @@ add the items in qb-core/shared/items.lua
  ["tunerinsurance"]				 = {["name"] = "tunerinsurance", 					["label"] = "tunerinsurance", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "tunerinsurance.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Insurance"},
 ```
 
-Add the job in qb-core/shared/jobs.lua
+Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 ```lua
     ['tuner'] = {
 		label = 'Tuner 6STR',
