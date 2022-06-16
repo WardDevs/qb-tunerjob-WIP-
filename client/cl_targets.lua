@@ -111,7 +111,7 @@ end)
 RegisterNetEvent("qb-tunerjob:insurance")
 AddEventHandler("qb-tunerjob:insurance", function()
     local insurance = exports['qb-input']:ShowInput({
-        header = "Create Receipt",
+        header = "Create Insurance",
 		submitText = "Insurance",
         inputs = {
             {
