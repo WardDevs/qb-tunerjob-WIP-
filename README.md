@@ -74,9 +74,9 @@ Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 
 
 ## Todo
-- Add Logs (Doing it now)
-- Add Items to shops
-- Make Items useable
+- Add Logs ✅
+- Add Items to tuner shops (Doing it now)
+- Make Items useable (like the rgb controler and stuff) (Doing it now)
 - Add Garage
-- Add the flatbed thingy with qb-ui
+- Add the flatbed that moves uses qb-ui
 - Add qb-management
