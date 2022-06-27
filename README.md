@@ -58,6 +58,25 @@ Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 ```
 
 
+add this to qb-bossmenu/cl_config.lua under the Config.BossMenus
+```lua
+    ['tuner'] = {
+        vector3(125.48, -3015.12, 7.83),
+    },
+
+```
+
+also this one to Config.BossMenusZones
+
+```lua
+
+    ['tuner'] = {
+        { coords = vector3(125.48, -3015.12, 7.83), length = 1, width = 1, heading = 351.0, minZ = 3.64, maxZ = 8.99 } ,
+    },
+
+```
+
+
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
@@ -75,8 +94,9 @@ Add the job in qb-core/shared/jobs.lua (this is mechanic job copy and pasted)
 
 ## Todo
 - Add Logs ✅
-- Add Items to tuner shops (Doing it now)
-- Make Items useable (like the rgb controler and stuff) (Doing it now)
+- Add qb-management ✅
+- Add Items to tuner shops ✅
+- Make Items useable (like the rgb controler and stuff) ✅
 - Add Garage
 - Add the flatbed that moves uses qb-ui
-- Add qb-management
+- Add GloveBox Items

@@ -23,13 +23,13 @@ RegisterNetEvent('QBCore:Client:OnPlayerUnload', function() -- This is ran when 
 end)
 
 
-RegisterNetEvent("qb-tunerjob:toggleDuty")
-AddEventHandler("qb-tunerjob:toggleDuty", function()
+RegisterNetEvent("qb-tunerjob:client:toggleDuty")
+AddEventHandler("qb-tunerjob:client:toggleDuty", function()
     TriggerServerEvent("QBCore:ToggleDuty")
 end)
 
 
-RegisterNetEvent("qb-tunerjob:tunerStash", function()
+RegisterNetEvent("qb-tunerjob:client:tunerStash", function()
     TriggerEvent("inventory:client:SetCurrentStash", "mechanicstash")
     TriggerServerEvent("inventory:server:OpenInventory", "stash", "mechanicstash", {
         maxweight = 4000000,
@@ -37,6 +37,6 @@ RegisterNetEvent("qb-tunerjob:tunerStash", function()
     })
 end)
 
-RegisterNetEvent('qb-tunerjob:tunershop', function ()
+RegisterNetEvent('qb-tunerjob:client:tunershop', function ()
 	TriggerServerEvent("inventory:server:OpenInventory", "shop", "tuner", Config.Items)
 end)

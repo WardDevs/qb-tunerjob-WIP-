@@ -33,7 +33,7 @@ Citizen.CreateThread(function()
 	}, {
 		options = {
 		    {  
-			event = "qb-tunerjob:toggleDuty",
+			event = "qb-tunerjob:client:toggleDuty",
 			icon = "far fa-bell",
 			label = "Service",
 			job = "tuner",
@@ -51,7 +51,7 @@ Citizen.CreateThread(function()
 	}, {
 		options = {
 		    {  
-			event = "qb-tunerjob:tunerStash",
+			event = "qb-tunerjob:client:tunerStash",
 			icon = "far fa-bell",
 			label = "Warehouse",
 			job = "tuner",
@@ -69,7 +69,7 @@ Citizen.CreateThread(function()
 	}, {
 		options = {
 		    {  
-			event = "qb-tunerjob:tunershop",
+			event = "qb-tunerjob:client:tunershop",
 			icon = "far fa-bell",
 			label = "Shop",
 			job = "tuner",
@@ -77,7 +77,34 @@ Citizen.CreateThread(function()
 		},
 		distance = 1.5
 	})
+
+    exports['qb-target']:AddBoxZone("TunerClothing", vector3(154.5, -3011.32, 7.04), 2.2, 0.6, {
+        name="TunerClothing",
+        heading=0,
+        debugPoly=false,
+        minZ = 6.04,
+        maxZ = 8.44,
+        }, {
+            options = {
+                {
+                    type = "client",
+                    event = "rl-outfits-ido:client:forceUI",
+                    icon = "fas fa-box",
+                    label = "Outfits",
+                    job = "tuner",
+                }, 
+                {
+                    type = "client",
+                    event = "clothingMenuThanks",
+                    icon = "fas fa-box",
+                    label = "Clothing Store",
+                    job = "tuner",
+                }, 
+        },
+            distance = 3.5
+    })
 end)
+
 
 RegisterNetEvent("qb-tunerjob:bill")
 AddEventHandler("qb-tunerjob:bill", function()
