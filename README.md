@@ -1,4 +1,4 @@
-# QBCore Tunerjob
+# QBCore Tunerjob **ARCHIVED**
 
 Thanks for downloading the script this script is not plug and play you have to do add a few things so if you do not now what you are doing **DONT MESS AROUND WITH IT IT MAY CAUSE TO BREAK YOUR SERVER**
 
